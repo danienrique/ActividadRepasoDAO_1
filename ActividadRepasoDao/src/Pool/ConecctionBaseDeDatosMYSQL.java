@@ -10,7 +10,7 @@ public class ConecctionBaseDeDatosMYSQL {
 	private static HikariConfig config = new HikariConfig();
 	private static HikariDataSource dataSource;
 	static{
-		config.setJdbcUrl("jdbc:mysql://localhost/tienda_bd?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false");
+		config.setJdbcUrl("jdbc:mysql://localhost/tienda_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false");
 		config.setUsername("root");
 		config.setPassword("alumno");
 		config.addDataSourceProperty("maximumPoolSize", 1);

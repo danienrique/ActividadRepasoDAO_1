@@ -28,7 +28,8 @@ public class Controlador {
 				break;
 			}
 			case 3:{
-				DAO.agregarProducto(crearProducto());
+				Producto p = crearProducto();
+				DAO.agregarProducto(p);
 				break;
 			}
 			case 4:{

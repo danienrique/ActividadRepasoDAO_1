@@ -39,12 +39,14 @@ public class VistaConsola implements IVista{
 
 	@Override
 	public String pedirNombre() {
+		System.out.println("Indique el nombre");
 		String nombre = sc.nextLine();
 		return nombre;
 	}
 
 	@Override
 	public int pedirStock() {
+		System.out.println("Indique el stock");
 		int stock = sc.nextInt();
 		sc.nextLine();
 		return stock;
@@ -52,6 +54,7 @@ public class VistaConsola implements IVista{
 
 	@Override
 	public double pedirPrecio() {
+		System.out.println("Indique el precio");
 		Double precio = sc.nextDouble();
 		sc.nextLine();
 		return precio;
@@ -59,6 +62,7 @@ public class VistaConsola implements IVista{
 
 	@Override
 	public String pedirCategoria() {
+		System.out.println("Indique la categoria");
 		String categoria = sc.nextLine();
 		return categoria;
 	}
@@ -74,7 +78,11 @@ public class VistaConsola implements IVista{
 	@Override
 	public void mostrarProducto(Producto p) {
 		// TODO Auto-generated method stub
-		System.out.println(p.toString());
+		if(p.getNombre().equals(null)) {
+			System.out.println("No hay ningun producto asi");
+		}else {
+			System.out.println(p.toString());
+		}
 	}
 
 }
