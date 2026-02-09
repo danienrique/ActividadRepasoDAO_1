@@ -1,0 +1,81 @@
+19:49:20 INFO  C.Controlador - Controlador inicializado
+19:49:20 INFO  C.Controlador - Aplicación iniciada
+19:49:24 DEBUG C.Controlador - Opción seleccionada: 1
+19:49:24 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+19:49:24 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 3 productos
+19:52:19 INFO  C.Controlador - Controlador inicializado
+19:52:19 INFO  C.Controlador - Aplicación iniciada
+19:52:20 DEBUG C.Controlador - Opción seleccionada: 1
+19:52:20 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+19:52:20 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 4 productos
+19:52:24 DEBUG C.Controlador - Opción seleccionada: 5
+19:52:24 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+19:52:24 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 4 productos
+19:52:28 DEBUG D.DaoProductoImplementadoMYSQL - Buscando producto con ID: 5
+19:52:28 INFO  D.DaoProductoImplementadoMYSQL - Producto encontrado: hola
+19:52:28 INFO  D.DaoProductoImplementadoMYSQL - Eliminando producto ID: 5
+19:52:28 INFO  D.DaoProductoImplementadoMYSQL - Producto eliminado: hola
+19:52:29 DEBUG C.Controlador - Opción seleccionada: 1
+19:52:29 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+19:52:29 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 3 productos
+19:52:36 DEBUG C.Controlador - Opción seleccionada: 0
+19:52:36 INFO  C.Controlador - Aplicación finalizada por el usuario
+22:42:57 INFO  C.Controlador - Controlador inicializado
+22:42:57 INFO  C.Controlador - Aplicación iniciada
+22:42:58 DEBUG C.Controlador - Opción seleccionada: 1
+22:42:58 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+22:42:59 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 3 productos
+22:43:01 DEBUG C.Controlador - Opción seleccionada: 2
+22:43:02 DEBUG D.DaoProductoImplementadoMYSQL - Buscando producto con ID: 2
+22:43:02 INFO  D.DaoProductoImplementadoMYSQL - Producto encontrado: Mouse Logitech
+22:43:04 DEBUG C.Controlador - Opción seleccionada: 3
+22:43:04 DEBUG C.Controlador - Solicitando datos para crear producto
+22:43:11 INFO  D.DaoProductoImplementadoMYSQL - Intentando agregar producto: hola
+22:43:11 INFO  D.DaoProductoImplementadoMYSQL - Producto agregado exitosamente: hola
+22:43:13 DEBUG C.Controlador - Opción seleccionada: 4
+22:43:13 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+22:43:13 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 4 productos
+22:43:16 DEBUG D.DaoProductoImplementadoMYSQL - Buscando producto con ID: 6
+22:43:16 INFO  D.DaoProductoImplementadoMYSQL - Producto encontrado: hola
+22:43:16 DEBUG C.Controlador - Solicitando datos para crear producto
+22:43:27 INFO  D.DaoProductoImplementadoMYSQL - Modificando producto ID: 6
+22:43:27 INFO  D.DaoProductoImplementadoMYSQL - Producto modificado exitosamente: sisia
+22:43:29 DEBUG C.Controlador - Opción seleccionada: 5
+22:43:29 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+22:43:29 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 4 productos
+22:43:32 DEBUG D.DaoProductoImplementadoMYSQL - Buscando producto con ID: 6
+22:43:32 INFO  D.DaoProductoImplementadoMYSQL - Producto encontrado: sisia
+22:43:32 INFO  D.DaoProductoImplementadoMYSQL - Eliminando producto ID: 6
+22:43:32 INFO  D.DaoProductoImplementadoMYSQL - Producto eliminado: sisia
+22:43:33 DEBUG C.Controlador - Opción seleccionada: 1
+22:43:33 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+22:43:33 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 3 productos
+22:43:35 DEBUG C.Controlador - Opción seleccionada: 0
+22:43:35 INFO  C.Controlador - Aplicación finalizada por el usuario
+23:12:16 INFO  C.Controlador - Controlador inicializado
+23:12:16 INFO  C.Controlador - Aplicación iniciada
+23:12:17 DEBUG C.Controlador - Opción seleccionada: 1
+23:12:17 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+23:12:18 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 3 productos
+23:12:20 DEBUG C.Controlador - Opción seleccionada: 2
+23:12:22 DEBUG D.DaoProductoImplementadoMYSQL - Buscando producto con ID: 1
+23:12:22 INFO  D.DaoProductoImplementadoMYSQL - Producto encontrado: hola
+23:12:26 DEBUG C.Controlador - Opción seleccionada: 0
+23:12:26 INFO  C.Controlador - Aplicación finalizada por el usuario
+23:23:14 INFO  C.Controlador - Controlador inicializado
+23:23:14 INFO  C.Controlador - Aplicación iniciada
+23:23:15 DEBUG C.Controlador - Opción seleccionada: 1
+23:23:15 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+23:23:15 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 3 productos
+23:23:18 DEBUG C.Controlador - Opción seleccionada: 2
+23:23:18 DEBUG D.DaoProductoImplementadoMYSQL - Buscando producto con ID: 2
+23:23:18 INFO  D.DaoProductoImplementadoMYSQL - Producto encontrado: Mouse Logitech
+23:23:20 DEBUG C.Controlador - Opción seleccionada: 3
+23:23:20 DEBUG C.Controlador - Solicitando datos para crear producto
+23:23:28 INFO  D.DaoProductoImplementadoMYSQL - Intentando agregar producto: hola
+23:23:28 INFO  D.DaoProductoImplementadoMYSQL - Producto agregado exitosamente: hola
+23:23:31 DEBUG C.Controlador - Opción seleccionada: 1
+23:23:31 DEBUG D.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+23:23:31 INFO  D.DaoProductoImplementadoMYSQL - Se listaron 4 productos
+23:23:34 DEBUG C.Controlador - Opción seleccionada: 0
+23:23:34 INFO  C.Controlador - Aplicación finalizada por el usuario

@@ -10,13 +10,9 @@ public class ConecctionBaseDeDatosMYSQL {
 	private static HikariConfig config = new HikariConfig();
 	private static HikariDataSource dataSource;
 	static{
-		config.setJdbcUrl("jdbc:mysql://localhost/tienda_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false");
+		config.setJdbcUrl("jdbc:mysql://localhost/tienda_db?serverTimezone=UTC&");
 		config.setUsername("root");
 		config.setPassword("alumno");
-		config.addDataSourceProperty("maximumPoolSize", 1);
-		config.addDataSourceProperty ("cachePrepStmts","true");
-		config.addDataSourceProperty ("prepStmtCacheSize","250");
-		config.addDataSourceProperty ("prepStmtCacheSqlLimit","2048");
 		
 		dataSource = new HikariDataSource(config);
 	}

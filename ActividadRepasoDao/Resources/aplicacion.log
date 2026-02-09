@@ -1,0 +1,10 @@
+2026-02-08 19:42:50.619 [main] INFO  Controlador.Controlador - Controlador inicializado
+2026-02-08 19:42:50.623 [main] INFO  Controlador.Controlador - Aplicación iniciada
+2026-02-08 19:42:51.991 [main] DEBUG Controlador.Controlador - Opción seleccionada: 1
+2026-02-08 19:42:51.992 [main] DEBUG DAO.DaoProductoImplementadoMYSQL - Ejecutando consulta para listar todos los productos
+2026-02-08 19:42:52.233 [main] INFO  DAO.DaoProductoImplementadoMYSQL - Se listaron 3 productos
+2026-02-08 19:42:57.937 [main] DEBUG Controlador.Controlador - Opción seleccionada: 0
+2026-02-08 19:42:57.937 [main] INFO  Controlador.Controlador - Aplicación finalizada por el usuario
+2026-02-08 19:47:00.122 [main] INFO  Controlador.Controlador - Controlador inicializado
+2026-02-08 19:47:00.125 [main] INFO  Controlador.Controlador - Aplicación iniciada
+2026-02-08 19:47:08.142 [main] INFO  DAO.DaoProductoImplementadoMYSQL - Se listaron 3 productos
